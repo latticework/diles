@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "ES6", // TODO: Note how angular uses ES5 and dist/js/cjs
+		"sourceMap": true,
+		"outDir": "dist/js" // See https://github.com/angular/angular/blob/master/tsconfig.json
+	},
+	// See https://github.com/angular/angular/blob/master/tsconfig.json
+	// TODO: What about tests?
+	"filesGlob": [
+		"./src/**/*.ts",
+		"./tools/**/*.ts", // TODO: How can I use this?
+        "!./node_modules/**",
+        "!./packages/**", // TODO: What is this for?
+        "!./dist/**", // TODO: What is this for?
+        "!./temp/**" // TODO: What is this for?
+	]
+}
