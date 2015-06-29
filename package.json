@@ -1,0 +1,28 @@
+{
+  "name": "diles",
+  "version": "0.0.1",
+  "description": "A Notification Message API",
+  "homepage": "https://github.com/latticework/diles",
+  "bugs": {
+    "url": "https://github.com/latticework/diles/issues"
+  },
+  "contributors": [
+    "Kenneth Brubaker <kennethbrubaker1968@gmail.com>"
+  ],
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/latticework/diles.git"
+  },
+  "keywords": [
+    "latticework",
+    "notification",
+    "error",
+    "message",
+    "messages"
+  ],
+  "author": "Latticework",
+  "license": "MIT"
+}
