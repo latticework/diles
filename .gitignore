@@ -31,3 +31,8 @@ node_modules
 # From gulp-git/.gitignore
 npm-debug.log
 *.sublime*
+
+
+# Node.js tools for VS15
+obj
+bin

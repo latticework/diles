@@ -1,0 +1,21 @@
+﻿{
+  "authority": "diles",
+  "domain": "core",
+  "library": "core",
+  "messages": [
+    {
+      "name": "InternalError",
+      "severity": "critical",
+      "template": "Internal error: ${args[0]}",
+      "args": [
+        {
+          "position": 0,
+          "name": "message",
+          "type": "string",
+          "description": "The description of the internal error" 
+        }
+      ],
+      "hasIdentifiableInformation": false
+    }
+  ]
+}
