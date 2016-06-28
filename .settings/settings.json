@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "_surpressSuperWithoutSuperTypeError": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.vs": true,
+        "**/bin": true,
+        "**/obj": true,
+        "**.ntvs_analysis.dat": true,
+        "**/*.njsproj": true,
+        "**/*.sln": true,
+        
+        "**/*.js": { "when": "$(basename).ts"},
+        "**/*.map": { "when": "$(basename)"}
+    }
+}
